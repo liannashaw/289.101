@@ -148,3 +148,76 @@ body {
     text-align: center;
 }
 
+#when h2 {
+    
+    text-align: center;
+    color: white;
+    border-bottom: 2px dashed #fff;
+    padding-bottom: 30px;
+}
+
+#when h3 {
+    
+    text-align: center;
+    color: white;
+}
+
+#when  ul li {
+    
+    margin-left: auto;
+        margin-right: auto;
+    color: white;
+    width: 800px;
+
+}
+
+#when ul {
+    
+    border-bottom: 2px dashed #fff;
+    width: inherit;
+    padding-bottom: 30px;
+}
+
+
+#who {
+    
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+#who h1 {
+    
+    text-align: center;
+    color: #377788;
+    font-weight: bold;
+}
+
+#who p {
+    
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #377788;
+    width: 800px;
+    font-weight: 500;
+}
+
+#who h1 + p {
+    
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+#footer img {
+    
+    width: 50px;
+}
+
+#footer {
+    
+    padding-top: 20px;
+    word-spacing: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
