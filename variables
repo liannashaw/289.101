@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Variables</title>
+</head>
+
+<body>
+    <script>
+        var x = 2;
+        console.log(x + 3);
+        
+        var surname = 'Smith';
+        var firstname = 'John';
+        console.log(firstname + ' ' + surname);
+        
+        x = x + 10
+        console.log(x);
+        
+        console.log((1 + 2) * 3)
+        
+    </script>
+    
+</body>
+
+</html>
