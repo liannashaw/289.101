@@ -76,6 +76,8 @@
         var eye_left_y = 100;
         var eye_right_x = 250;
         var eye_right_y = 100;
+        var mouth_x = 150;
+        var mouth_y = 250;
 
         // set initial positions
         document.getElementById('eye_left').style.left = eye_left_x + 'px';
@@ -90,6 +92,75 @@
             eye_right_y -= 10;
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
+        
+        // move eyes down 
+        document.getElementById('eyes_down_btn').addEventListener('click', function() {
+            eye_left_y += 10;
+            document.getElementById('eye_left').style.top = eye_left_y - 'px';
+            eye_right_y += 10;
+            document.getElementById('eye_right').style.top = eye_right_y - 'px';
+        });
+        
+        // move eyes closer
+        document.getElementById('eyes_closr_btn').addEventListener('click', function() {
+            eye_left_x += 10;
+            document.getElementById('eye_left').style.top = eye_left_x + 'px';
+            eye_right_x -= 10;
+            document.getElementById('eye_right').style.top = eye_right_x + 'px';
+        });
+        
+        // eyes farther
+        document.getElementById('eyes_further_btn').addEventListener('click', function() {
+            eye_left_x -= 10;
+            document.getElementById('eye_left').style.top = eye_left_x + 'px';
+            eye_right_x += 10;
+            document.getElementById('eye_right').style.top = eye_right_x + 'px';
+        });
+        
+        // hallow eyes
+        document.getElementById('hallow_eyes_btn').addEventListener('click', function() {
+            
+        });
+        
+        //solid eyes
+        document.getElementById('solid_eyes_btn').addEventListener('click', function() {
+            
+        });
+        
+        //no right eye
+        document.getElementById('no_right_eye').addEventListener('click', function() {
+            
+        });
+        
+        //mouth up button
+        document.getElementById('mouth_up_btn').addEventListener('click', function() {
+            mouth_y -= 10px;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+        });
+        
+        //mouth down button
+        document.getElementById('mouth_down_btn').addEventListener('click', function() {
+            mouth_y += 10px;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+         });
+        
+        //happy mouth button
+        document.getElementById('happy_mouth_btn').addEventListener('click', function() {
+             
+         });
+        
+        //sad mouth button
+        document.getElementById('sad_mouth_btn').addEventListener('click', function() {
+            
+         });
+        
+        //reset button
+        document.getElementById('reset_btn').addEventListener('click', function() {
+            
+        });
+            
+        
+        
     </script>
 
 </body>
